@@ -1,0 +1,14 @@
+diff a/dist/stories/InfiniteScrollWithHeight.d.ts b/dist/stories/InfiniteScrollWithHeight.d.ts	(rejected hunks)
+@@ -3,6 +3,6 @@ export default class App extends React.Component {
+-    state: {
+-        items: unknown[];
+-        hasMore: boolean;
+-    };
+-    fetchMoreData: () => void;
+-    render(): JSX.Element;
++  state: {
++    items: unknown[];
++    hasMore: boolean;
++  };
++  fetchMoreData: () => void;
++  render(): JSX.Element;

@@ -1,0 +1,12 @@
+diff a/dist/stories/PullDownToRefreshInfScroll.d.ts b/dist/stories/PullDownToRefreshInfScroll.d.ts	(rejected hunks)
+@@ -3,5 +3,5 @@ export default class App extends React.Component {
+-    state: {
+-        items: unknown[];
+-    };
+-    fetchMoreData: () => void;
+-    render(): JSX.Element;
++  state: {
++    items: unknown[];
++  };
++  fetchMoreData: () => void;
++  render(): JSX.Element;

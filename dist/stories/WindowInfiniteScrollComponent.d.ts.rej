@@ -1,0 +1,20 @@
+diff a/dist/stories/WindowInfiniteScrollComponent.d.ts b/dist/stories/WindowInfiniteScrollComponent.d.ts	(rejected hunks)
+@@ -3 +3 @@ declare type State = {
+-    data: number[];
++  data: number[];
+@@ -5,6 +5,9 @@ declare type State = {
+-export default class WindowInfiniteScrollComponent extends React.Component<{}, State> {
+-    state: {
+-        data: any[];
+-    };
+-    next: () => void;
+-    render(): JSX.Element;
++export default class WindowInfiniteScrollComponent extends React.Component<
++  {},
++  State
++> {
++  state: {
++    data: any[];
++  };
++  next: () => void;
++  render(): JSX.Element;

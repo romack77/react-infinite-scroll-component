@@ -1,0 +1,15 @@
+diff a/dist/utils/threshold.d.ts b/dist/utils/threshold.d.ts	(rejected hunks)
+@@ -2,2 +2,2 @@ export declare const ThresholdUnits: {
+-    Pixel: string;
+-    Percent: string;
++  Pixel: string;
++  Percent: string;
+@@ -5,3 +5,5 @@ export declare const ThresholdUnits: {
+-export declare function parseThreshold(scrollThreshold: string | number): {
+-    unit: string;
+-    value: number;
++export declare function parseThreshold(
++  scrollThreshold: string | number
++): {
++  unit: string;
++  value: number;
